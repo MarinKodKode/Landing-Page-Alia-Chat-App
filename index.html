@@ -3,6 +3,7 @@
 <html lang="en">
 	<head>
 		<title>Alia Chat Application</title>
+		<link rel="icon" href="images/bubbles.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,7 +42,7 @@
 										<header class="major">
 											<h2>¿Qué es Alia?</h2>
 										</header>
-										<p>Alia es una aplicación móvil de mensajería instantanea desarrollada para los dispositivos con sistema operativo android. La versión de compilación es Android SDK-30 y la versión mínima de compilación es Android SDK-17. Puede ser ejecutada en el 97% de todos los dispositivos android en circulación actualmente. </p>
+										<p style="color: black;">Alia es una aplicación móvil de mensajería instantanea desarrollada para los dispositivos con sistema operativo android. La versión de compilación es Android SDK-30 y la versión mínima de compilación es Android SDK-17. Puede ser ejecutada en el 97% de todos los dispositivos android en circulación actualmente. </p>
 										<ul class="actions">
 											<li><a href="#cta" class="button">Descargar demo</a></li>
 										</ul>
@@ -51,32 +52,27 @@
 							</section>
 
 						<!-- First Section -->
-							<section id="first" class="main special">
+							<section id="first" class="main special" style="color: blak;">
 								<header class="major">
 									<h2>Tecnologías usadas</h2>
 								</header>
 								<ul class="features">
-									<li>
+									<li style="color: black;">
 										<span class="icon solid major style1 fa-code"></span>
 										<h3>Lenguaje de programación</h3>
 										<p>Alia esta desarrollada en lenguaje Java, usa el patrón de diseño MVVM en su contrucción. Para las interfaces o 'layouts' usa lenguaje XML así como librerías de diseño y la integración de apis de Google.</p>
 									</li>
-									<li>
+									<li style="color: black;">
 										<span class="icon solid major style3 fa-server"></span>
 										<h3>Servicios de backend</h3>
-										<p>Firebase es el servicio de backend de Alia, integra el uso de APIs, como Google Auth para servicios de autenticación, Google Cloud Messaging para los servicios de mensajería instantanea y para las notifiaciones en tiempo de reposo de la aplicación. <br> Usa una base de datos NoSQL basada en documentos JSON en arquitectura de arbol para la modularización de datos.</p>
+										<p style="color: black;">Firebase es el servicio de backend de Alia, integra el uso de APIs, como Google Auth para servicios de autenticación, Google Cloud Messaging para los servicios de mensajería instantanea y para las notifiaciones en tiempo de reposo de la aplicación. <br> Usa una base de datos NoSQL basada en documentos JSON en arquitectura de arbol para la modularización de datos.</p>
 									</li>
-									<li>
+									<li style="color: black;">
 										<span class="icon major style5 fa-copy"></span>
 										<h3>Librerías de terceros</h3>
 										<p>Principalmente para el diseño UI usa Material Design y integración de la libreria Lottie. Librerías que no existen de manera nátiva en Android.</p>
 									</li>
 								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="#cta" class="button">Demo</a></li>
-									</ul>
-								</footer>
 							</section>
 
 						<!-- Second Section -->
@@ -88,44 +84,41 @@
 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
+										<strong>1.0</strong> Versión
 									</li>
 									<li class="style2">
 										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
+										<strong>16</strong> Clases Java
 									</li>
 									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
+										<span class="icon solid fa-brush"></span>
+										<strong>10</strong> Ficheros XML
 									</li>
 									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
+										<span class="icon solid fa-server"></span><br>
+										Integración de Firebase
 									</li>
 									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
+										<span class="icon solid fa-mobile-alt"></span><br>
+										API Google Cloud Messaging
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+								<p class="content" style="color: black; display: inline;">Alia esta construida siguiendo el patrón de diseño MVVM, durante el desarrollo optamos por el uso de DataBinding puesto que permite trabajar de manera mucho más fluida haciendo las conexiones entre archivos XML y las clases de Java. Por otro lado contiene un modelo que captura las variables de los documentos JSON de Firebase, esto hace posible añadir más funcionalidades sin necesidad de modificar el proyecto entero. Toda la aplicación está modularizada por lo que el mantenimiento del código es simple y eficiente. Debido al manejo de los estados por los que la aplicación es ejecutada (onCreate, onResume, etc.) es posible añadir funcionalidades como el "En línea" que notifica a los usuarios cuando se encuentran haciendo uso de la aplicación. 
+									<br> 
+									<br> Todo el código fuente se puede encontrar en el siguiente repositorio: <a href="https://github.com/MarinKodKode/Alia-Chat-Application-.git" target="_blank">Chat Alia Code </a></p>
+								
 							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Descargar Demo</h2>
+									<p>Para usar Alia solo debes descargar el APK y crear una cuenta. <br>
+									Y listo! Ya puedes comenzar a chatear.</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a download="" href="/demo/alia.apk" class="button primary">Descargar demo</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -133,33 +126,19 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
+					<footer id="footer" style="  justify-content: center; text-align: center;">
+						<section style="justify-content: center; text-align: center;" >
+							<h2>Contacto</h2>
+							
 							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+								<li><a href="https://www.facebook.com/manuel.marin.39501" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/manuel_marin0807/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/MarinKodKode" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://mahm-portfolio.web.app/" target="_blank" class="icon brands fa-dribbble alt"><span class="label">Portfolio</span></a></li>
 							</ul>
+							<p class="copyright" style="margin-top: 5rem;"> &copy; Manuel Alejandro Hernández Marín</p>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						
 					</footer>
 
 			</div>
